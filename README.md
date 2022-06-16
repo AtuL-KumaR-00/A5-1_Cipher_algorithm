@@ -37,6 +37,7 @@ A 64-bit key K is used as the initial values in X, Y, and Z registers. After the
 **Functioning of Register X**:
 
 The 14th, 17th, 18th and 19th (x13, x16, x17, x18) bits of register X are XORed and result is saved in a temporary variable (say t). Thereafter, the bits are shifted 1-position to right direction, i.e.  bit x17 is shifted to x18, bit x16 is shifted to x17 and so on till x0 is shifted to x1. After shifting, the bit saved in temporary variable t is saved in x0. It can be equated and diagrammatically represented as:
+
 ![image](https://user-images.githubusercontent.com/64649440/174137760-67e8f0fd-b0ef-45d2-9814-98ca76078f67.png)
 
 ![image](https://user-images.githubusercontent.com/64649440/174137807-e7a26181-21a9-4f4c-bf95-661a46cfabb1.png)
@@ -45,6 +46,7 @@ The 14th, 17th, 18th and 19th (x13, x16, x17, x18) bits of register X are XORed 
 
 The 21st and 22nd bits (y20, y21) of register Y are XORed and result is saved in a temporary variable (say t). Thereafter, the bits are shifted 1-position to right direction, i.e.  bit y20 is shifted to y21, bit y19 is shifted to y20 and so on till y0 is shifted to y1. After shifting, the bit saved in temporary variable t is saved in y0. It can be equated and represented diagrammatically as:
 
+
 ![image](https://user-images.githubusercontent.com/64649440/174139557-9cc3d899-daf7-47e4-910f-2fc60f013ec0.png)
 
 ![image](https://user-images.githubusercontent.com/64649440/174138012-8d1045c1-ec17-4269-97af-47b1403e984c.png)
@@ -52,6 +54,8 @@ The 21st and 22nd bits (y20, y21) of register Y are XORed and result is saved in
 **Functioning of Register Z:**
 
 The 8th, 21st, 22nd and 23rd bits (z7, z20, z21, z22) of register Z are XORed and result is saved in a temporary variable (say t). Thereafter, the bits are shifted 1-position to right direction, i.e.  bit z21 is shifted to z22, bit z20 is shifted to z21 and so on till z0 is shifted to z1. After shifting, the bit saved in temporary variable t is saved in z0. It can be equated and represented diagrammatically as:
+
+
 ![image](https://user-images.githubusercontent.com/64649440/174139689-2c7cfc43-ce44-4eb5-9df4-6ae40221df38.png)
 
 ![image](https://user-images.githubusercontent.com/64649440/174138159-b826ae66-8e8b-4080-8f1f-1e2fa9c87aeb.png)
