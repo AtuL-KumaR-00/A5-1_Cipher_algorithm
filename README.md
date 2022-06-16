@@ -100,7 +100,7 @@ ciphertext ⊕ keystream = plaintext
 
 
 ## References 
-- Cryptography Introduction - GeeksforGeeks (GATXUWWYDFFHN4SK64F6H3X6UVUCRGMR6BXJ4JAPT2MMG5QI5VRQLQNE)
+- Cryptography Introduction - GeeksforGeeks (http://www.geeksforgeeks.org/cryptography-introduction/)
 - https://en.wikipedia.org/wiki/A5/1
 - https://www.cryptographynotes.com/2019/02/symmetric-stream-a5by1-algorithm-linear-feedback-shift-register.html
 - https://www.youtube.com/watch?v=LgZAI3DdUA4
