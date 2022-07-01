@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/acer/IChip-PS2/IChip-PS2.srcs/sources_1/new/design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-311] analyzing module majority
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/acer/IChip-PS2/IChip-PS2.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
