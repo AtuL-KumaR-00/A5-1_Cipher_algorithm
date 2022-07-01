@@ -97,6 +97,22 @@ plaintext ⊕ keystream = ciphertext
 On the other hand, at the destination, keystream is generated using the same 64 bit key in A5/1 algorithm which is then XORed with the ciphertext to get the plaintext. That is,
 ciphertext ⊕ keystream = plaintext
 
+## Result:
+
+![dec_img](https://user-images.githubusercontent.com/64649440/176882656-0a8429b4-d481-4d73-80c5-fd590af2a79a.jpg)
+
+       |            /|\
+       |             |
+       |             |
+       |Encoding     |
+       |             |Decoding
+       |             |
+       |             |
+      \|/            |
+           
+![enc_img](https://user-images.githubusercontent.com/64649440/176882940-5750e33c-98ca-420b-bed6-9c488ab4b769.jpg)
+
+
 
 
 ## References 
